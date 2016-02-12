@@ -1,0 +1,130 @@
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'fontawesome', sans-serif;
+  color: #bcbbbb;
+  display: inline-block;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	color: #d88b79;
+	font-weight: 300;
+}
+
+h3 {
+	display: inline-block;
+}
+
+.github-icon {
+	font-size: 2em;
+	display: inline-block;
+	margin: 1em;
+}
+
+.footer-text {
+	color: #bcbbbb;
+	font-size: 2em;
+	display: block;
+	margin-top: 28px;
+    margin-bottom: 0px;
+	text-align: center;
+}
+
+.footer-div {
+	text-align: center;
+}
+
+.footer-icon {
+	font-size: 2em;
+	display: inline-block;
+	margin: 1em;
+	text-align: center;
+}
+
+.footer-icon:hover {
+	color: #8c8c8c;
+}
+
+.text-muted {
+	color: #bcbbbb;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+
+.title-super {
+	font-size: 60px;
+}
+
+.title-logo {
+	margin-top: 20px;
+}
+
+.my-picture {
+  display: block;
+  margin: 15px auto 10px;
+  width: 60%;
+  max-width: 100%;
+  border: 2px solid white;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.clickable-img:hover {
+	cursor:pointer;
+	opacity: 0.6;
+}
+
+.about-me {
+	background-color: #dfeaf1;
+	text-align: center;
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-top: 20px;
+	padding-bottom: 100px;
+}
+
+.about-me-text {
+	color: #307699;
+	line-height: 200%;
+}
+
+
+@media screen and (max-width: 500px) {
+	.footer-icon, .footer-text, .text-muted, .github-icon, h3 {
+		font-size: 18px;
+	}
+	.title-super {
+		font-size: 35px;
+	}
+	.title-super, .text-right {
+		text-align: center;
+	}
+	.about-me {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.my-picture {
+		width: 25%;
+	}
+}
+
+@media screen and (max-width: 991px) and (min-width: 501px) {
+	.my-picture {
+		width: 25%;
+	}
+
+	.text-right {
+		text-align: center;
+	}
+
+	.about-me {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+}
